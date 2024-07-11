@@ -6,5 +6,5 @@ func Hello(name string) string {
 	if name == "" {
 		name = "world"
 	}
-	return fmt.Sprintf("Hello, %s!", name)
+	return fmt.Sprintf("Hello,%s!", name)
 }

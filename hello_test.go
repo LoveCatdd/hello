@@ -9,7 +9,7 @@ import (
 
 func TestHello(t *testing.T) {
 	data := "jack"
-	expect := fmt.Sprintf("hello, %s!", data)
+	expect := fmt.Sprintf("Hello,%s!", data)
 	result := hello.Hello(data)
 	if expect != result {
 		t.Fatalf("expected result %s, but got %s", expect, result)
